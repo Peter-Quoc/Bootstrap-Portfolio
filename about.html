@@ -10,14 +10,13 @@
 			position: relative;
 			min-height: 100%;
 		}
-/*		.container {
-			background-image: url("https://static1.squarespace.com/static/52fa426be4b062dfe8a7f47a/t/56e5ef32356fb03943262f0e/1457909560384/welcomebackground.jpg");
-			background-repeat: none;
-			background-size: 100% 100%;
-		}*/
+
 		body {
 			margin-bottom: 60px;
 			height: 100%;
+			background-image: url("https://static1.squarespace.com/static/52fa426be4b062dfe8a7f47a/t/56e5ef32356fb03943262f0e/1457909560384/welcomebackground.jpg");
+			background-repeat: none;
+			background-size: 100% 100%;
 		}
 		.footer {
 			position: absolute;
@@ -44,11 +43,17 @@
 			padding: 0 5px 10px 10px;
 			text-align: center;
 		}
+		.AboutMeInfo img {
+			float: left;
+			margin-right: 15px;
+		}
+
 
 	</style>
 </head>
 <body>
 	<header>
+
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -65,12 +70,15 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 	</header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-5">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-5">
+			<section class="AboutMe">
+			<div>
 				<h1 class="SectionHeader">About Me</h1>
-				<img src="https://avatars0.githubusercontent.com/u/28549240?v=4&s=460" class="img-responsive" alt="Responsive image" height="200px" width="200px">
+			</div>
+			<div class="AboutMeInfo">
+				<img class="MyPic" src="https://avatars0.githubusercontent.com/u/28549240?v=4&s=460" alt="My Picture" height="200px" width="200px">
 				<p>
 					A little about me, my parents came over to the United States in 1975 shortly before the fall of Saigon. They worked hard and eventually was able to give life 5 boys, my 4 older brothers and myself. I grew up facinated by art and design thanks to my dad's artistic nature. I grew to enjoy different forms of art and how they interacted with people. Based on this, I studied a few years of Architecture at the University of Houston College of Architecture. After finding it wasn't for me, I searched for a career that could combine both my love of art and logic. This led me to coding.
 				</p>
@@ -79,25 +87,26 @@
 					In my spare time, like to stimulate my mind with mind puzzles. I enjoy card and magic tricks and hope to learn one day. I was raised as a Catholic and help out at my home parish teaching CCE. Food-ventures are a common thing within my friend group making Houston a great place for us. I also have a pet dog named Ace who I adopted from SPCA in March 2017.
 				</p>
 			</div>
-			<div class="col-md-1"></div>
-			<div class="col-md-2">
-				<aside class="Connect">
-				<h1 class="SectionHeader">Connect</h1>
-				<div class="SectionInfo">
-					<a class="icon" href="https://github.com/Peter-Quoc" target="_blank">					
-						<img src="https://static.addtoany.com/images/blog/github-icon.png" alt="GitHub" height="45px" width="45px">			
-					</a>
-					<a class="icon" href="https://www.linkedin.com/in/peter-quoc-le-399a4b148/" target="_blank">							
-						<img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png" alt="LinkedIn" height="45px" width="45px">
-					</a>
-					<a class="icon" href="https://stackoverflow.com/" target="_blank">
-						<img src="https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png" alt="StackOverflow" height="45px" width="45px">
-					</a>
-				</div>
-				</aside>
-			</div>
-			<div class="col-md-2"></div>
+			</section>
 		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-2">
+			<aside class="Connect">
+			<h1 class="SectionHeader">Connect</h1>
+			<div class="SectionInfo">
+				<a class="icon" href="https://github.com/Peter-Quoc" target="_blank">					
+					<img src="https://static.addtoany.com/images/blog/github-icon.png" alt="GitHub" height="45px" width="45px">			
+				</a>
+				<a class="icon" href="https://www.linkedin.com/in/peter-quoc-le-399a4b148/" target="_blank">							
+					<img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png" alt="LinkedIn" height="45px" width="45px">
+				</a>
+				<a class="icon" href="https://stackoverflow.com/" target="_blank">
+					<img src="https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png" alt="StackOverflow" height="45px" width="45px">
+				</a>
+			</div>
+			</aside>
+		</div>
+		<div class="col-md-2"></div>
 	</div>
 	<div class="footer">
 		© Copyright Peter-Quoc Le 2017
